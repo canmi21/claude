@@ -36,3 +36,12 @@
 ## Agent Auto-Dispatch (Cheatsheet)
 
 *Always use the appropriate agent for the task.*
+
+Load the specific agent configuration for the following domains:
+
+**`code-checker`**: For static analysis, linting, and bug fixing.
+**`code-reviewer`**: After part of code edit, quality, refactoring, and logic review.
+**`rust-crate-auditor`**: For Rust dependencies, security, and `Cargo.toml` changes.
+**`rust-test-planner`**: For designing and checking Rust test cases and coverage planning.
+
+> **Rule**: If the user's request falls into a specific domain above, prioritize the instructions in that agent file over general rules, if not adapt to the situation.
