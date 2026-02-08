@@ -1,5 +1,5 @@
 ---
-name: rust-test-planner
+name: rust-test-auditor
 description: Interface contract analyst. Designs deterministic Path 1/Path 2 test cases without generating code.
 tools: Read, Grep, Glob
 model: sonnet
